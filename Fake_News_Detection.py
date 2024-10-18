@@ -3,12 +3,6 @@
   "nbformat_minor": 0,
       "display_name": "Python 3"
     },
-    {
-      "cell_type": "code",
-      "execution_count": 4,
-      "metadata": {
-        "id": "lXgpx-9cqOR6"
-      },
       "outputs": [],
       "source": [
         "import pandas as pd\n",
