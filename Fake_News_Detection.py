@@ -4,15 +4,6 @@
       "display_name": "Python 3"
     },
     {
-      "cell_type": "markdown",
-      "source": [
-        "# 1. Data Collection"
-      ],
-      "metadata": {
-        "id": "NwLpCbx3BfMQ"
-      }
-    },
-    {
       "cell_type": "code",
       "execution_count": 4,
       "metadata": {
