@@ -20,7 +20,7 @@ vocab = pickle.load(open('tfidf_vocab.pkl', 'rb'))
 import pickle
 filename = 'fake_news_model.pkl'
 pickle.dump(model, open(filename, 'wb'))
-pickle.dump(Tfidf_vectorizer.vocabulary_, open('tfidf_vocab.pkl', 'wb'))
+pickle.dump(Tfidfvectorizer.vocabulary_, open('tfidf_vocab.pkl', 'wb'))
 
 tfidf = TfidfVectorizer(vocabulary=vocab)
 ps = PorterStemmer()
