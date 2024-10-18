@@ -3,10 +3,6 @@
   "nbformat_minor": 0,
       "display_name": "Python 3"
     },
-    "language_info": {
-      "name": "python"
-    }
-  },
   "cells": [
     {
       "cell_type": "markdown",
