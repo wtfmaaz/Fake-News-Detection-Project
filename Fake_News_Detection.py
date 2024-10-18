@@ -6,28 +6,6 @@
     {
       "cell_type": "code",
       "source": [
-        "true = pd.read_csv(\"/content/True.csv\")"
-      ],
-      "metadata": {
-        "id": "GbGnhIU1zFSY"
-      },
-      "execution_count": 5,
-      "outputs": []
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "fake = pd.read_csv(\"/content/Fake.csv\")"
-      ],
-      "metadata": {
-        "id": "WwjUKQpc4A6u"
-      },
-      "execution_count": 6,
-      "outputs": []
-    },
-    {
-      "cell_type": "code",
-      "source": [
         "true"
       ],
       "metadata": {
