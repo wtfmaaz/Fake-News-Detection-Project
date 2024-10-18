@@ -3,7 +3,6 @@
   "nbformat_minor": 0,
       "display_name": "Python 3"
     },
-      "metadata": {
         "id": "view-in-github",
         "colab_type": "text"
       },
