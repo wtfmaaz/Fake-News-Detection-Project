@@ -3,9 +3,6 @@
   "nbformat_minor": 0,
       "display_name": "Python 3"
     },
-        "id": "view-in-github",
-        "colab_type": "text"
-      },
       "source": [
         "<a href=\"https://colab.research.google.com/github/wtfmaaz/Fake-News-Detection-Project/blob/main/Fake_News_Detection.py\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
       ]
