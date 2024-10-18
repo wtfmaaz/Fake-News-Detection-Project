@@ -3,12 +3,6 @@
   "nbformat_minor": 0,
       "display_name": "Python 3"
     },
-      "outputs": [],
-      "source": [
-        "import pandas as pd\n",
-        "import numpy as np"
-      ]
-    },
     {
       "cell_type": "code",
       "source": [
