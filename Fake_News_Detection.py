@@ -3,19 +3,6 @@
   "nbformat_minor": 0,
       "display_name": "Python 3"
     },
-    {
-      "cell_type": "code",
-      "source": [
-        "true"
-      ],
-      "metadata": {
-        "id": "ZHh7NbAr4HWG",
-        "colab": {
-          "base_uri": "https://localhost:8080/",
-          "height": 423
-        },
-        "outputId": "61c7d31e-e705-44bf-8b77-624490d2cc6c"
-      },
       "execution_count": 7,
       "outputs": [
         {
