@@ -16,7 +16,24 @@ import re
 import nltk
 nltk.download('stopwords')
 from nltk.corpus import stopwords
+with open('tfidf_vectorizer.pkl', 'rb') as vectorizer_file:
+    tfidf_vectorizer = pickle.load(vectorizer_file)
 
+with open('logistic_model.pkl', 'rb') as model_file:
+    model = pickle.load(model_file)
+
+# User input from Streamlit app
+user_input = st.text_input("Enter a news article text")
+
+if user_input:
+    # Transform the user input using the loaded vectorizer
+    user_input_transformed = tfidf_vectorizer.transform([user_input])
+
+    # Predict using the loaded model
+    prediction = model.predict(user_input_transformed)
+
+    # Display the result
+    st.write(f"Prediction: {prediction[0]}")
 model = pickle.load(open('fake_news_model.pkl', 'rb'))
 vocab = pickle.load(open('tfidf_vocab.pkl', 'rb'))
 
