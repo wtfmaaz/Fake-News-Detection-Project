@@ -20,9 +20,9 @@ vocab = pickle.load(open('tfidf_vocab.pkl', 'rb'))
 import pickle
 filename = 'fake_news_model.pkl'
 pickle.dump(model, open(filename, 'wb'))
-pickle.dump(tfidf_vectorizer.vocabulary_, open('tfidf_vocab.pkl', 'wb'))
-with open('tfidf_vocab.pkl', 'rb') as vectorizer_file:
-    tfidf_vectorizer = pickle.load(vectorizer_file)
+pickle.dump(Tfidf_vectorizer.vocabulary_, open('tfidf_vocab.pkl', 'wb'))
+with open('Tfidf_vocab.pkl', 'rb') as vectorizer_file:
+    Tfidf_vectorizer = pickle.load(vectorizer_file)
 
 with open('fake_news_model.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
