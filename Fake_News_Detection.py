@@ -3,7 +3,6 @@
   "nbformat_minor": 0,
       "display_name": "Python 3"
     },
-    {
       "cell_type": "markdown",
       "metadata": {
         "id": "view-in-github",
