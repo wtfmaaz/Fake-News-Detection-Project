@@ -11,9 +11,6 @@ import nltk
 nltk.download('stopwords')
 from nltk.corpus import stopwords
 
-tfidf_vectorizer = TfidfVectorizer(max_features=5000)
-tfidf_vectorizer.fit(X_train)
-
 model = pickle.load(open('fake_news_model.pkl', 'rb'))
 vocab = pickle.load(open('tfidf_vectorizer.pkl', 'rb'))
 
