@@ -16,7 +16,7 @@ import nltk
 nltk.download('stopwords')
 from nltk.corpus import stopwords
 model = pickle.load(open('fake_news_model.pkl', 'rb'))
-vocab = pickle.load(open('tfidf_vocab.pkl', 'rb'))
+vocab = pickle.load(open('tfidf_vectorizer.pkl', 'rb'))
 
 tfidf = TfidfVectorizer(vocabulary=vocab)
 ps = PorterStemmer()
