@@ -2,5 +2,5 @@ streamlit
 scikit-learn
 nltk
 pickle-mixin
-tfidf vectorizer
-TF-IDF vectorizer
+tfidf 
+TF-IDF 
