@@ -21,6 +21,7 @@ vocab = pickle.load(open('tfidf_vectorizer.pkl', 'rb'))
 tfidf = TfidfVectorizer(vocabulary=vocab)
 ps = PorterStemmer()
 stop_words = stopwords.words('english')
+tfidf_vectorizer.fit(X_train)
 
 def preprocess_text(text):
     # Preprocess the input text
