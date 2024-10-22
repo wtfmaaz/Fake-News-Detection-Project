@@ -21,6 +21,7 @@ model = pickle.load(open('fake_news_model.pkl', 'rb'))
 vocab = pickle.load(open('tfidf_vectorizer.pkl', 'rb'))
 
 tfidf = TfidfVectorizer(vocabulary=vocab)
+tfidf.fit(train_data)
 ps = PorterStemmer()
 stop_words = stopwords.words('english')
 
